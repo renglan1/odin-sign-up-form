@@ -1,0 +1,41 @@
+.hero {
+  grid-column: 1 / 1;
+  position: relative;
+}
+
+#logo {
+  height: 100%;
+}
+
+.odin {
+  position: absolute;
+  display: flex;
+  flex-flow: row nowrap;
+  background-color: rgba(0, 0, 0, 0.5);
+  height: 13.5%;  
+  top: 20vh;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  color: #FFFFFF;
+  font-family: 'NorseBold';
+  font-size: 64px;
+  gap: 2px;
+
+  * {
+    padding: 4% 0;
+  }
+
+  h1 {
+    height: 4.5rem;
+    margin: 0;
+    font-size: 4rem;
+  }
+}
+
+#leaves {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'NorseBold';
+  src: url('../assets/fonts/Norse-Bold.otf') format('opentype');
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #0E0E0E;
+  height: 100vh;
+  overflow-y: hidden;
+}
+
+.container {
+  display: grid;
+  position: relative;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 12vw;
+  height: 100vh;
+}
