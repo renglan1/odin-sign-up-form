@@ -13,6 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
       rel="stylesheet"
     />
+    <script src="scripts/main.js" defer></script>
   </head>
   <body>
     <div class="container">
@@ -40,30 +41,33 @@
         </div>
         <form action="./myurl">
           <h2>Let's do this!</h2>
-          <div class="first">
-            <label for="firstname">FIRST NAME</label>
-            <input type="text" id="firstname" name="firstname">
-          </div>
-          <div class="last">
-            <label for="lastname">LAST NAME</label>
-            <input type="text" id="lastname" name="lastname">
-          </div>
-          <div class="mail">
-            <label for="email">EMAIL</label>
-            <input type="email" id="email" name="email">
-          </div>
-          <div class="phone">
-            <label for="phonenum">PHONE NUMBER</label>
-            <input type="number" id="phonenum" name="phonenum">
-          </div>
-          <div class="pass">
-            <label for="password">PASSWORD</label>
-            <input type="password" id="password" name="password">
-          </div>
-          <div class="confirm">
-            <label for="confirmpass">CONFIRM PASSWORD</label>
-            <input type="password" id="confirmpass" name="confirmpass">
-          </div>
+          <ul>
+            <li class="first">
+              <label for="firstname">FIRST NAME</label>
+              <input type="text" id="firstname" name="firstname" />
+            </li>
+            <li class="last">
+              <label for="lastname">LAST NAME</label>
+              <input type="text" id="lastname" name="lastname" />
+            </li>
+            <li class="mail">
+              <label for="email">EMAIL</label>
+              <input type="email" id="email" name="email" />
+            </li>
+            <li class="phone">
+              <label for="phonenum">PHONE NUMBER</label>
+              <input type="number" id="phonenum" name="phonenum" />
+            </li>
+            <li class="pass">
+              <label for="password">PASSWORD</label>
+              <input type="password" id="password" name="password"/>
+              <div class="no-match">* Passwords do not match</div>
+            </li>
+            <li class="confirm">
+              <label for="confirmpass">CONFIRM PASSWORD</label>
+              <input type="password" id="confirmpass" name="confirmpass" />
+            </li>
+          </ul>
         </form>
       </section>
     </div>

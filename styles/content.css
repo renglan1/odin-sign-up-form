@@ -32,3 +32,43 @@ form {
     color: #1F2937;
   }
 }
+
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  flex-flow: row wrap;
+  width: 70%;
+  column-gap: 15%;
+  margin-bottom: 7%;
+}
+
+label {
+  display: block;
+  font-size: 0.6rem;
+  font-weight: bold;
+  letter-spacing: 0.05rem;
+  color: #59616C;
+}
+
+input {
+  width: 100%;
+  margin-bottom: 5%;
+  border-radius: 3px;
+  border: 1px solid #d6d7d8;
+  padding: 2.5%;
+}
+
+li {
+  flex: 0 0 42.5%;
+}
+
+.error {
+  border: 1px solid #BE2D2D;
+}
+
+.no-match {
+  display: none;
+  color: #BE2D2D;
+  font-size: 0.6rem;
+}
