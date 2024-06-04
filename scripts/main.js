@@ -6,7 +6,6 @@ const noMatch = document.querySelector('div.no-match');
 
 inputs.map((input) => {
   input.addEventListener('change', (e) => {
-    console.log('hi');
     if(password.value !== confirmPassword.value) {
       password.classList.add('error');
       confirmPassword.classList.add('error');
